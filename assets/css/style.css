@@ -5,3 +5,16 @@
     margin: 0;
     box-sizing : border-box;
 }
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.memory-game {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
