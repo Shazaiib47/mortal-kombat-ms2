@@ -49,3 +49,7 @@ body {
     border-radius: 5px;
     backface-visibility: hidden;
 }
+
+.front-face {
+    transform: rotateY(180deg);
+}
