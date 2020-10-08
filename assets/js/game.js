@@ -16,17 +16,18 @@ function flipCard() {
     }
 
     secondCard = this;
+    hasFlippedCard = false;
 
     checkForMatch();
 }
 
 function checkForMatch() {
     if (firstCard.dataset.framework === secondCard.dataset.framework) {
-        disableCards;
+        disableCards();
         return;
     }
 
-    unflipCards;
+    unflipCards();
 }
 
 function disableCards() {
