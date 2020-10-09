@@ -9,6 +9,7 @@
 body {
     height: 100vh;
     display: flex;
+    font-family: 'Spectral SC', sans-serif;
 }
 
 .memory-game {
@@ -52,4 +53,21 @@ body {
 
 .front-face {
     transform: rotateY(180deg);
+}
+
+.mainTag {
+    color: #4d0000;
+    font-weight: bolder;
+}
+
+.welcome {
+    color: #ffffff;
+    font-weight: 800;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.btn-handle {
+    border: 2px solid #4d0000;
 }
