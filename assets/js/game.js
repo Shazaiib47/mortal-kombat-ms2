@@ -45,7 +45,7 @@ function disableCards() {
     firstCard.removeEventListener("click", flipCard);
     secondCard.removeEventListener("click", secondCard);
 
-    points+= 4;
+    points += 4;
     finalPoint = points;
     win +=2;
     finalScore.innerHTML = finalPoint;
@@ -54,7 +54,7 @@ function disableCards() {
     if (win === 12) {
         won.style.visibility = "visible";
     }
-    
+
     resetBoard;
 }
 
@@ -80,6 +80,8 @@ function  resetBoard() {
 function playAgain() {
     location.reload();
 }
+
+play.addEventListener("click", playAgain);
 
 (function shuffle() {
     cards.forEach(card => {
