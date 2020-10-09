@@ -1,4 +1,11 @@
 const cards = document.querySelectorAll(".memory-card");
+const score = document.getElementById("point");
+const finalScore = document.getElementById("finalPoints");
+const won = document.getElementById("won");
+const play = document.getElementById("playAgain");
+const button = document.getElementsByClassName("btn-handle");
+const dragon = document.getElementsById("dragon");
+const body = document.getElementsByTagName("body")[0];
 
 let hasFlippedCard = false;
 let lockBoard = false;
