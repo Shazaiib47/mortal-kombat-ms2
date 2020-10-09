@@ -4,7 +4,7 @@ const finalScore = document.getElementById("finalPoints");
 const won = document.getElementById("won");
 const play = document.getElementById("playAgain");
 const button = document.getElementsByClassName("btn-handle");
-const dragon = document.getElementsById("dragon");
+const dragon = document.getElementById("dragon");
 const body = document.getElementsByTagName("body")[0];
 
 var points = 0;
@@ -45,6 +45,16 @@ function disableCards() {
     firstCard.removeEventListener("click", flipCard);
     secondCard.removeEventListener("click", secondCard);
 
+    points+= 4;
+    finalPoint = points;
+    win +=2;
+    finalScore.innerHTML = finalPoint;
+    score.innerHTML = points;
+
+    if (win === 12) {
+        won.style.visibility = "visible";
+    }
+    
     resetBoard;
 }
 
@@ -56,6 +66,10 @@ function unflipCards() {
         secondCard.classList.remove("flip");
         resetBoard();
     }, 1500);
+
+    points = -1;
+    finalPoint = points;
+    score.innerHTML = points;
 }
 
 function  resetBoard() {
