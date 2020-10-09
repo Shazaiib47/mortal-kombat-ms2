@@ -7,6 +7,10 @@ const button = document.getElementsByClassName("btn-handle");
 const dragon = document.getElementsById("dragon");
 const body = document.getElementsByTagName("body")[0];
 
+var points = 0;
+var finalPoint = 0;
+var win = 0;
+
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
@@ -57,6 +61,10 @@ function unflipCards() {
 function  resetBoard() {
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
+}
+
+function playAgain() {
+    location.reload();
 }
 
 (function shuffle() {
