@@ -83,3 +83,26 @@ body {
 .btn-handle:hover {
     background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
 }
+
+.headTag, .points > p {
+    font-weight: bolder;
+    color: #4d0000;
+}
+
+#point {
+    font-weight: 1300;
+}
+
+#won {
+    visibility: hidden;
+    border-radius: 10px;
+    background: #e6979f;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border: 5px solid #064d75;
+}
