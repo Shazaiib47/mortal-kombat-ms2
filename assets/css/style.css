@@ -10,6 +10,10 @@ body {
     height: 100vh;
     display: flex;
     font-family: 'Spectral SC', sans-serif;
+    background-image: url("/assets/images/mortal-kombat-background.jpg");
+    background-size: cover;
+    background-position: cover;
+    position: relative;
 }
 
 .memory-game {
