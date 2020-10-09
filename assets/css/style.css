@@ -55,6 +55,14 @@ body {
     transform: rotateY(180deg);
 }
 
+.open {
+    width: (100%);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
 .mainTag {
     color: #4d0000;
     font-weight: bolder;
@@ -70,4 +78,8 @@ body {
 
 .btn-handle {
     border: 2px solid #4d0000;
+}
+
+.btn-handle:hover {
+    background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
 }
