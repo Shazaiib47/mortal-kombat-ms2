@@ -1,154 +1,155 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing : border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    font-family: 'Spectral SC', sans-serif;
-    background-image: url("../images/mortal-kombat-background.jpg");
-    background-size: cover;
-    position: relative;
+  height: 100vh;
+  font-family: 'Spectral SC', sans-serif;
+  background-image: url("../images/mortal-kombat-background.jpg");
+  background-size: cover;
+  position: relative;
 }
 
 .memory-game {
-    width: 640px;
-    height: 640px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    perspective: 1000px;
+  width: 640px;
+  height: 640px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
 }
 
 .memory-card {
-    width: calc(25% - 10px);
-    height: calc(33.333% - 10px);
-    margin: 5px;
-    position: relative;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
-    background-image: linear-gradient(-225deg, #4d0000, #000000 100%);
-    transform: scale(1);
-    transform-style: preserve-3d;
-    transition: transform .5s;
+  width: calc(25% - 10px);
+  height: calc(33.333% - 10px);
+  margin: 5px;
+  position: relative;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+  background-image: linear-gradient(-225deg, #4d0000, #000000 100%);
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .5s;
 }
 
 .memory-card:active {
-    transform: scale(0.97);
-    transition: transform .2s;
+  transform: scale(0.97);
+  transition: transform .2s;
 }
 
 .memory-card.flip {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
-.front-face, .back-face {
-    height: 100%;
-    width: 100%;
-    padding: 20px;
-    position: absolute;
-    border-radius: 5px;
-    backface-visibility: hidden;
+.front-face,
+.back-face {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  border-radius: 5px;
+  backface-visibility: hidden;
 }
 
 .front-face {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .open {
-    width: (100%);
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+  width: (100%);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .mainTag {
-    color: #4d0000;
-    font-weight: bolder;
-    font-size: 3.5rem;
+  color: #4d0000;
+  font-weight: bolder;
+  font-size: 3.5rem;
 }
 
 .welcome {
-    color: red;
-    font-weight: 800;
-    width: 70%;
-    margin: auto;
-    margin-bottom: 20px;
-    font-size: 1.3rem;
+  color: red;
+  font-weight: 800;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
 }
 
 .btn-handle {
-    border: 2px solid #4d0000;
-    background-color: #ffffff;
+  border: 2px solid #4d0000;
+  background-color: #ffffff;
 }
 
 .btn-handle:hover {
-    background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
+  background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
 }
 
-.headTag, .points > p {
-    font-weight: bolder;
-    color: #4d0000;
+.headTag,
+.points>p {
+  font-weight: bolder;
+  color: #4d0000;
 }
 
 #point {
-    font-weight: 1300;
+  font-weight: 1300;
 }
 
 #won {
-    visibility: hidden;
-    border-radius: 10px;
-    background: darkred;
-    background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
-    margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    border: 5px solid #000000;
+  visibility: hidden;
+  border-radius: 10px;
+  background: darkred;
+  background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border: 5px solid #000000;
 }
 
-#won > h1, #won p {
-    font-weight: bolder;
+#won>h1,
+#won p {
+  font-weight: bolder;
 }
 
 #playAgain {
-    border: 2px solid darkslategrey;
-    border-radius: 5px;
-    background: #000000;
+  border: 2px solid darkslategrey;
+  border-radius: 5px;
+  background: #000000;
 }
 
 #playAgain:hover {
-    background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
+  background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
 }
 
 #dragon {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
+
 
 /*Media Queries*/
 
 @media (min-width: 992px) {
-    .mainTag {
-        font-size: 80px;
-        margin-top: 60px;
-    }
-    .welcome {
+  .mainTag {
+    font-size: 80px;
+    margin-top: 60px;
+  }
+  .welcome {
     font-size: 35px;
   }
-
   .btn-handle {
     font-size: 40px;
     padding: 10px 20px;
     border-radius: 10px;
   }
-
   .memory-game {
     width: 640px;
     height: 530px;
@@ -160,80 +161,66 @@ body {
   #won {
     padding: 50px;
   }
-
   .headTag {
     font-size: 70px;
   }
-
-  .points > p,
-  #won > h1,
+  .points>p,
+  #won>h1,
   #won p,
   #playAgain {
     font-size: 35px;
   }
 }
-
 
 @media (min-width: 768px) and (max-width: 991px) {
   .mainTag {
     font-size: 75px;
     margin-top: 60px;
   }
-
   .welcome {
     font-size: 30px;
   }
-
   .btn-handle {
     font-size: 35px;
     padding: 10px 20px;
     border-radius: 10px;
   }
-
   .memory-game {
     width: 620px;
     height: 512px;
   }
-
   .front-face,
   .back-face {
     padding: 10px;
   }
-
   #won {
     padding: 50px;
     top: 40%;
   }
-
   .headTag {
     font-size: 70px;
   }
-
-  .points > p,
-  #won > h1,
+  .points>p,
+  #won>h1,
   #won p,
   #playAgain {
     font-size: 35px;
   }
 }
 
-
 @media (min-width: 576px) and (max-width: 767px) {
   .mainTag {
     font-size: 60px;
     margin-top: 50px;
   }
-
   .welcome {
     font-size: 25px;
   }
-
   .btn-handle {
     font-size: 30px;
     padding: 10px 20px;
     border-radius: 10px;
   }
-
   .memory-game {
     width: 480px;
     height: 398px;
@@ -242,18 +229,15 @@ body {
   .back-face {
     padding: 6px;
   }
-
   #won {
     padding: 35px;
     top: 30%;
   }
-
   .headTag {
     font-size: 50px;
   }
-
-  .points > p,
-  #won > h1,
+  .points>p,
+  #won>h1,
   #won p,
   #playAgain {
     font-size: 30px;
@@ -265,17 +249,14 @@ body {
     font-size: 45px;
     margin-top: 45px;
   }
-
   .welcome {
     font-size: 25px;
   }
-
   .btn-handle {
     font-size: 30px;
     padding: 10px 20px;
     border-radius: 10px;
   }
-
   .memory-game {
     width: 380px;
     height: 315px;
@@ -284,62 +265,51 @@ body {
   .back-face {
     padding: 6px;
   }
-
   #won {
     padding: 30px;
     top: 30%;
   }
-
   .headTag {
     font-size: 45px;
   }
-
-  .points > p,
-  #won > h1,
+  .points>p,
+  #won>h1,
   #won p,
   #playAgain {
     font-size: 25px;
   }
 }
 
-
 @media (max-width: 377px) {
   .mainTag {
     font-size: 45px;
     margin-top: 40px;
   }
-
   .welcome {
     font-size: 20px;
   }
-
   .btn-handle {
     font-size: 30px;
     padding: 10px 20px;
     border-radius: 10px;
   }
-
   .memory-game {
     width: 340px;
     height: 282px;
   }
-
   .front-face,
   .back-face {
     padding: 5px;
   }
-
   #won {
     padding: 15px;
     top: 30%;
   }
-
   .headTag {
     font-size: 40px;
   }
-
-  .points > p,
-  #won > h1,
+  .points>p,
+  #won>h1,
   #won p,
   #playAgain {
     font-size: 25px;
