@@ -102,6 +102,7 @@ body {
     visibility: hidden;
     border-radius: 10px;
     background: darkred;
+    background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
     margin: auto;
     position: absolute;
     top: 50%;
@@ -120,6 +121,10 @@ body {
     border: 2px solid darkslategrey;
     border-radius: 5px;
     background: #000000;
+}
+
+#playAgain:hover {
+    background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
 }
 
 #dragon {
