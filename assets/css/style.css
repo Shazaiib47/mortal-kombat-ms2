@@ -102,8 +102,7 @@ body {
 #won {
   visibility: hidden;
   border-radius: 10px;
-  background: darkred;
-  background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
+  background: linear-gradient(115.87deg, #330080 0%, #000000 100%);
   margin: auto;
   position: absolute;
   top: 50%;
@@ -112,6 +111,7 @@ body {
   transform: translate(-50%, -50%);
   z-index: 1;
   border: 5px solid #000000;
+  color: white;
 }
 
 #won>h1,
