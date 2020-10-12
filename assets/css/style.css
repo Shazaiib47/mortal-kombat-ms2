@@ -132,6 +132,8 @@ body {
     width: 100px;
 }
 
+/*Media Queries*/
+
 @media (min-width: 992px) {
     .mainTag {
         font-size: 80px;
@@ -171,7 +173,6 @@ body {
   }
 }
 
-/*medium devices*/
 
 @media (min-width: 768px) and (max-width: 991px) {
   .mainTag {
@@ -216,7 +217,7 @@ body {
   }
 }
 
-/*SMALL DEVICES*/
+
 @media (min-width: 576px) and (max-width: 767px) {
   .mainTag {
     font-size: 60px;
@@ -259,7 +260,6 @@ body {
   }
 }
 
-/*EXTRA SMALL DEVICES*/
 @media (min-width: 378px) and (max-width: 575px) {
   .mainTag {
     font-size: 45px;
@@ -302,7 +302,7 @@ body {
   }
 }
 
-/*X-EXTRA SMALL DEVICES*/
+
 @media (max-width: 377px) {
   .mainTag {
     font-size: 45px;
