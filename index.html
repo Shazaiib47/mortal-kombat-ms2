@@ -7,90 +7,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="assets/js/game.js" async></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-    <title>Mortal Kombat</title>
+    <title>Mortal Kombat: Home</title>
 </head>
-<body id="game">
 
-<header>
-    <h1 class="text-center mt-4 mb-2 headTag">Mortal Kombat</h1>
-</header>
-
-<section class="container mx auto">
-    <section class="mx-auto">
-        <div class="row">
-        <div class="col-12 text-center points">
-            <p>Fights Won: <span id="point">0</span></p>
-        </div>
-     </div>
-
-     <div id="won" class="text-center">
-        <h1>Flawless Victory. You are now the challenger.</h1>
-        <p>Fights Won: <span id="finalPoints">0</span></p>
-        <button class="btn" id="playAgain">Fight Another Tower</button>
-     </div>
-
-    <section class="memory-game">
-        <div class="memory-card" data-framework="cyrax">
-            <img class="front-face" src="assets/images/cyrax.png" alt="Cyrax-MK">
-            <img class="back-face" src="assets/images/mk-dragon.png" alt="MK-Logo">
-        </div>
-
-        <div class="memory-card" data-framework="cyrax">
-            <img class="front-face" src="assets/images/cyrax.png" alt="Cyrax-MK">
-            <img class="back-face" src="assets/images/mk-dragon.png" alt="MK-Logo">
-        </div>
-
-        <div class="memory-card" data-framework="ermac">
-            <img class="front-face" src="assets/images/ermac.png" alt="Ermac-MK">
-            <img class="back-face" src="assets/images/mk-dragon.png" alt="MK-Logo">
-        </div>
-
-         <div class="memory-card" data-framework="ermac">
-            <img class="front-face" src="assets/images/ermac.png" alt="Ermac-MK">
-            <img class="back-face" src="assets/images/mk-dragon.png" alt="MK-Logo">
-        </div>
-
-        <div class="memory-card" data-framework="noob">
-            <img class="front-face" src="assets/images/noob.png" alt="Noob-MK">
-            <img class="back-face" src="assets/images/mk-dragon.png" alt="MK-Logo">
-        </div>
-
-         <div class="memory-card" data-framework="noob">
-            <img class="front-face" src="assets/images/noob.png" alt="Noob-MK">
-            <img class="back-face" src="assets/images/mk-dragon.png" alt="MK-Logo">
-        </div>
-
-        <div class="memory-card" data-framework="quanchi">
-            <img class="front-face" src="assets/images/quanchi.png" alt="QuanChi-MK">
-            <img class="back-face" src="assets/images/mk-dragon.png" alt="MK-Logo">
-        </div>
-
-         <div class="memory-card" data-framework="quanchi">
-            <img class="front-face" src="assets/images/quanchi.png" alt="QuanChi-MK">
-            <img class="back-face" src="assets/images/mk-dragon.png" alt="MK-Logo">
-        </div>
-
-        <div class="memory-card" data-framework="scorpion">
-            <img class="front-face" src="assets/images/scorpion-asset.png" alt="Scorpion-MK">
-            <img class="back-face" src="assets/images/mk-dragon.png" alt="MK-Logo">
-        </div>
-
-        <div class="memory-card" data-framework="scorpion">
-            <img class="front-face" src="assets/images/scorpion-asset.png" alt="Scorpion-MK">
-            <img class="back-face" src="assets/images/mk-dragon.png" alt="MK-Logo">
-        </div>
-
-        <div class="memory-card" data-framework="subzero">
-            <img class="front-face" src="assets/images/subzero.png" alt="SubZero-MK">
-            <img class="back-face" src="assets/images/mk-dragon.png" alt="MK-Logo">
-        </div>
-
-         <div class="memory-card" data-framework="subzero">
-            <img class="front-face" src="assets/images/subzero.png" alt="SubZero-MK">
-            <img class="back-face" src="assets/images/mk-dragon.png" alt="MK-Logo">
-        </div>
-    </section>
-     </section>
-    </section>
-</body>
+<section class="container  open text-center mx-auto">
+    <div><p class="mainTag px-auto">Mortal Kombat</p></div>
+    <div class="">
+        <p class="welcome">
+            Welcome Contender. Match the cards and get a pair to win fights, but be warned; selecting
+            incorrect cards loses you a fight. Good Luck.
+        </p>
+    </div>
+    <div>
+    <a href="game.html">
+    <button class="btn btn-handle">
+        <img id="dragon" src="assets/images/mk-dragon-icon.jpg" alt="MK-Dragon">Begin Fighting</button>
+    </a>
+    </div>
+</section>
 </html>
