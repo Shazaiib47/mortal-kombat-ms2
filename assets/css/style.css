@@ -131,3 +131,10 @@ body {
     height: 100px;
     width: 100px;
 }
+
+@media (min-width: 992px) {
+    .mainTag {
+        font-size: 80px;
+        margin-top: 60px;
+    }
+}
