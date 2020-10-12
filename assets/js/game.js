@@ -45,7 +45,7 @@ function disableCards() {
     firstCard.removeEventListener("click", flipCard);
     secondCard.removeEventListener("click", secondCard);
 
-    points += 4;
+    points += 3;
     finalPoint = points;
     win +=2;
     finalScore.innerHTML = finalPoint;
@@ -67,7 +67,7 @@ function unflipCards() {
         resetBoard();
     }, 1000);
 
-    points = -1;
+    points -= 1;
     finalPoint = points;
     score.innerHTML = points;
 }
