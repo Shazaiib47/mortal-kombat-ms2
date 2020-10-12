@@ -137,4 +137,211 @@ body {
         font-size: 80px;
         margin-top: 60px;
     }
+    .welcome {
+    font-size: 35px;
+  }
+
+  .btn-handle {
+    font-size: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .memory-game {
+    width: 640px;
+    height: 530px;
+  }
+  .front-face,
+  .back-face {
+    padding: 10px;
+  }
+  #won {
+    padding: 50px;
+  }
+
+  .headTag {
+    font-size: 70px;
+  }
+
+  .points > p,
+  #won > h1,
+  #won p,
+  #playAgain {
+    font-size: 35px;
+  }
+}
+
+/*medium devices*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .mainTag {
+    font-size: 75px;
+    margin-top: 60px;
+  }
+
+  .welcome {
+    font-size: 30px;
+  }
+
+  .btn-handle {
+    font-size: 35px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .memory-game {
+    width: 620px;
+    height: 512px;
+  }
+
+  .front-face,
+  .back-face {
+    padding: 10px;
+  }
+
+  #won {
+    padding: 50px;
+    top: 40%;
+  }
+
+  .headTag {
+    font-size: 70px;
+  }
+
+  .points > p,
+  #won > h1,
+  #won p,
+  #playAgain {
+    font-size: 35px;
+  }
+}
+
+/*SMALL DEVICES*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .mainTag {
+    font-size: 60px;
+    margin-top: 50px;
+  }
+
+  .welcome {
+    font-size: 25px;
+  }
+
+  .btn-handle {
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .memory-game {
+    width: 480px;
+    height: 398px;
+  }
+  .front-face,
+  .back-face {
+    padding: 6px;
+  }
+
+  #won {
+    padding: 35px;
+    top: 30%;
+  }
+
+  .headTag {
+    font-size: 50px;
+  }
+
+  .points > p,
+  #won > h1,
+  #won p,
+  #playAgain {
+    font-size: 30px;
+  }
+}
+
+/*EXTRA SMALL DEVICES*/
+@media (min-width: 378px) and (max-width: 575px) {
+  .mainTag {
+    font-size: 45px;
+    margin-top: 45px;
+  }
+
+  .welcome {
+    font-size: 25px;
+  }
+
+  .btn-handle {
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .memory-game {
+    width: 380px;
+    height: 315px;
+  }
+  .front-face,
+  .back-face {
+    padding: 6px;
+  }
+
+  #won {
+    padding: 30px;
+    top: 30%;
+  }
+
+  .headTag {
+    font-size: 45px;
+  }
+
+  .points > p,
+  #won > h1,
+  #won p,
+  #playAgain {
+    font-size: 25px;
+  }
+}
+
+/*X-EXTRA SMALL DEVICES*/
+@media (max-width: 377px) {
+  .mainTag {
+    font-size: 45px;
+    margin-top: 40px;
+  }
+
+  .welcome {
+    font-size: 20px;
+  }
+
+  .btn-handle {
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .memory-game {
+    width: 340px;
+    height: 282px;
+  }
+
+  .front-face,
+  .back-face {
+    padding: 5px;
+  }
+
+  #won {
+    padding: 15px;
+    top: 30%;
+  }
+
+  .headTag {
+    font-size: 40px;
+  }
+
+  .points > p,
+  #won > h1,
+  #won p,
+  #playAgain {
+    font-size: 25px;
+  }
 }
