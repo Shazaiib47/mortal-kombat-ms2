@@ -98,7 +98,7 @@ body {
 #won {
     visibility: hidden;
     border-radius: 10px;
-    background: #e6979f;
+    background: darkred;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -106,7 +106,7 @@ body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    border: 5px solid #064d75;
+    border: 5px solid #000000;
 }
 
 #won > h1, #won p {
@@ -114,9 +114,9 @@ body {
 }
 
 #playAgain {
-    border: 2px solid #2580b3;
+    border: 2px solid darkslategrey;
     border-radius: 5px;
-    background: #2580b3;
+    background: #000000;
 }
 
 #dragon {
