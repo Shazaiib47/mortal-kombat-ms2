@@ -158,3 +158,28 @@ to beat your previous record.
     7.  [jQuery](https://jquery.com/)
         - jQuery library was used to make HTML and the JS much easier to use and implement via their API.
             This made implementing event handling, animations and manipulating much easier.
+
+
+## Testing <a name="testing"></a>
+
+Three tools were used to validate and test the integrity of my project:
+
+[W3C Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- This tool was used to validate and check the integrity of the CSS File.
+
+    Results for the validity of the CSS can be found [here](documentation/css-validator.png)
+
+[W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+- This tool was used to validate the integrity of the HTML page for any warnings or errors. There are no errors but warnings
+show in regards to better header names, but this does not affect the integrity of the game state.
+
+    Results for the validity of both the HTML's can be found [here](documentation/html-game-validator-doc.png) and [here](documentation/html-index-validator.png)
+
+[JSHint](https://jshint.com/)
+- This tool was used to validate and check the Javascript page for any errors shown throughout the game as well
+as warnings
+
+    Results for the JavaScript validator can be found [here](documentation/js-code-validator.png)
+
+This project was tested through multiple browsers; Chrome, Firefox, Opera and Microsoft Edge for validity.
+
