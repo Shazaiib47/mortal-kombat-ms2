@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--JQuery Library CDN-->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!--Bootstrap Content Delivery Network-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--JavaScript File Location and Link-->
     <script src="assets/js/game.js" async></script>
+    <!--CSS Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Mortal Kombat</title>
   </head>
   <body id="game">
+
+  <!--Begin Header that contains title and point tracker-->
     <header>
       <h1 class="text-center mt-4 mb-2 headTag">Mortal Kombat</h1>
     </header>
@@ -20,11 +26,17 @@
             <p>Fights Won: <span id="point">0</span></p>
           </div>
         </div>
+    <!--End Header-->
+
+        <!--Begin Victory Div Popup with stats from points-->
         <div id="won" class="text-center">
           <h1>Flawless Victory. You are now the challenger.</h1>
           <p>Fights Won: <span id="finalPoints">0</span></p>
           <button class="btn" id="playAgain">Fight Another Tower</button>
         </div>
+        <!--End Victory popup code-->
+
+        <!--Begin Card Game Deck w/ front and back face properties-->
         <section class="memory-game">
           <div class="memory-card" data-framework="cyrax">
             <img class="front-face" src="assets/images/cyrax.png" alt="Cyrax-MK">
@@ -76,6 +88,7 @@
           </div>
         </section>
       </section>
+      <!--End Card Game Deck-->
     </section>
   </body>
 </html>
