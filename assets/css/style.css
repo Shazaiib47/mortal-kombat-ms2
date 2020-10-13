@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* Begin Body Styling w/ background image */
 body {
   height: 100vh;
   font-family: 'Spectral SC', sans-serif;
@@ -12,6 +13,8 @@ body {
   background-size: cover;
   position: relative;
 }
+
+/* End body styling */
 
 /* Memory Game Config */
 .memory-game {
@@ -74,12 +77,16 @@ body {
 
 /* End Open Class Styling */
 
+/* Begin Main Title customisation */
 .mainTag {
   color: #4d0000;
   font-weight: bolder;
   font-size: 3.5rem;
 }
 
+/* End title customisation */
+
+/* Begin welcome customisation, taken from index.html for instructions */
 .welcome {
   color: red;
   font-weight: 800;
@@ -98,6 +105,9 @@ body {
   background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
 }
 
+/* End Welcome customisation with buttons and hover effects */
+
+/* Points and head title customisation */
 .headTag,
 .points>p {
   font-weight: bolder;
@@ -107,6 +117,10 @@ body {
 #point {
   font-weight: normal;
 }
+
+/* End points customisation */
+
+/* Victory Popup upon winning the game styles */
 
 #won {
   visibility: hidden;
@@ -138,13 +152,18 @@ body {
   background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
 }
 
+/* End victory popup styling with button hover effects */
+
+/* Image styling from welcome button adjustments */
+
 #dragon {
   height: 100px;
   width: 100px;
 }
 
+/* End image styling */
 
-/*Media Queries*/
+/*Media Queries for Multiple Screen Sizes*/
 
 @media (min-width: 992px) {
   .mainTag {
