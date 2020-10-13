@@ -98,4 +98,13 @@ To view my live project, please click the link below. I hope you have fun playin
     - The background wallpaper was an important element to also consider as it Had to be relevant to the theme of Mortal
     Kombat, but also not too flashy or distracting for the user so certaine elements are not hidden.
 
-    - The background image for the game was taken directly from the official Fandom Wiki for [Mortal Kombat](https://mortalkombat.fandom.com/wiki/Mortal_Kombat_Wiki)
+    - The background image for the game was taken directly from the official Fandom Wiki for [Mortal Kombat](https://mortalkombat.fandom.com/wiki/Mortal_Kombat_Wiki).
+
+
+## Wireframes <a name="wireframes"></a>
+
+-  Wireframes for the game were developed and created in [Balsamiq](https://balsamiq.com).
+There are no major contrasts between the wireframes and the final product, but there have been minor added
+tweaks such as the overlay instructions added, but all the designs were final.
+
+- Wireframes for the game can be found [here](documentation/wireframes/ms2-mortalkombat.pdf)
