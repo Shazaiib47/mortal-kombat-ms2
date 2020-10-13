@@ -48,3 +48,21 @@ To view my live project, please click the link below. I hope you have fun playin
     have fun playing the game as well.
     - As the site owner of the game, I want to be able to view all the elements of the game on 
     a single page to prevent scrolling.
+
+
+## Design Choices <a name="designchoices"></a>
+
+- ### Font Selection
+
+    - As my project was centered around the theme of Mortal Kombat, finding the right font was
+    imperative for me. As there was no font just as replicated like the font In Mortal Kombat, I 
+    had to find a similar one.
+
+        The font I had chosen for the game was [Spectral SC](https://fonts.google.com/specimen/Spectral+SC?query=spec).
+
+    <h2 align="left"><img src="/documentation/mk-font-preview.png"></h2>  
+    
+    <h2 align="right"><img src="/documentation/mk-text-preview.png"></h2>
+
+    As Shown in the images above, the font comparison is relatively the same in some aspects. This had narrowed down
+    my search for a good font and Spectral SC looked like a very ideal font for my game.
