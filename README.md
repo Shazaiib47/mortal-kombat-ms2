@@ -107,4 +107,54 @@ To view my live project, please click the link below. I hope you have fun playin
 There are no major contrasts between the wireframes and the final product, but there have been minor added
 tweaks such as the overlay instructions added, but all the designs were final.
 
-- Wireframes for the game can be found [here](documentation/wireframes/ms2-mortalkombat.pdf)
+- Wireframes for the game can be found [here](documentation/wireframes/ms2-mortalkombat.pdf).
+
+## Features
+
+- Interactivity Implemented in game so animations show when a card is flipped.
+
+- Responsive on large devices to ensure the full immersiveness of the game is experienced.
+
+- Fight Counter replaced for Flips for full immersion of the game and to keep track for a competitive edge
+to beat your previous record.
+
+### Future Features to Implement.
+
+- A timer to track progress and for the user to have a competitive edge if they wish to beat their previous record.
+
+- Difficulty section which scales from Easy (12 cards), Medium (16 cards), and Hard (24 cards).
+
+- Audio Cues such as music, vocal feedback once a card pair has been matched.
+
+## Technologies Used <a name="techused"></a>
+
+- ### Languages Used
+
+   - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+        - Used within the game for the main language to implement text and the structure.
+    
+    - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+        - Used to style the elements of the game, mainly the cards, text and also added animations
+        and transitions.
+    
+    - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+        - Javascript used to bring the game together and works as intended.
+
+- ### Frameworks, Programs, and Libraries Used.
+
+    1. [Google Fonts](https://fonts.google.com)
+        - Google Fonts Website was used to import the 'Spectral SC' font into the CSS file to be used within
+        the game.
+    2.  [Git](https://git-scm.com/)
+        - Git was used for version control by using the gitpod terminal to commit, add and push changes for my project to Github.
+    3.  [GitHub](https://github.com)
+        - GitHub was used to store the code from the project after it was pushed via Git.
+    4.  [Balsamiq](https://balsamiq.com/)
+        - Balsamiq was used to create the wireframes during the design and initial process.
+    5.  [HTML Formatter](https://www.freeformatter.com/html-formatter.html)
+        - HTML Formatting tool was used to beautify and indent the HTML Code for the game.
+    6.  [CSS Formatter](https://www.freeformatter.com/css-beautifier.html)
+        - CSS Formatting tool was used to correctly indent and format the CSS within the style.css file.
+    7.  [jQuery](https://jquery.com/)
+        - jQuery library was used to make HTML and the JS much easier to use and implement via their API.
+            This made implementing event handling, animations and manipulating much easier.
