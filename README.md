@@ -34,3 +34,17 @@ the flips represent the fights won counter.
 To view my live project, please click the link below. I hope you have fun playing the game as much as I do.
 
 [View My Live Project Here](https://shazaiib47.github.io/mortal-kombat-ms2/)
+
+## User Experience (UX) <a name="ux"></a>
+
+- ### External User Goals
+
+    - As a User who plays the game, I want to be able to have fun playing the game.
+    - As a User who plays the game, I want my effort to be recognised whilst playing.
+
+- ### Site Owner Goals
+
+    - As the site owner of the game, I want to share the same experiences as the visitor and
+    have fun playing the game as well.
+    - As the site owner of the game, I want to be able to view all the elements of the game on 
+    a single page to prevent scrolling.
