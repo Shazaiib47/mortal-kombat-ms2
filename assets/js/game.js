@@ -79,16 +79,20 @@ function unflipCards() {
     score.innerHTML = points;
 }
 
+/* function that resets the board after each round, so after a card flip the game board is locked and the same card cannot be flipped again */
 function  resetBoard() {
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
 }
 
+/* When a game is over the user clicks the button to play again which then calls the function playAgain, which then reloads the webpage and game commences again.
+    the event listener is also added to click for the function to take place */
 function playAgain() {
     location.reload();
 }
 
 play.addEventListener("click", playAgain);
+
 
 /* a shuffle method that is implemented that takes place every time a new game is commenced.
     the math.random method returns a random number each time as stated below and this is multiplied by 12 as there are 12 cards in the deck */
@@ -99,5 +103,5 @@ play.addEventListener("click", playAgain);
     });
 })();
 
-//added an event listner to cards that flips the card upon the user clicking.
+//added an event listener to cards that flips the card upon the user clicking. the first part can be found above.
 cards.forEach(card => card.addEventListener("click", flipCard));
