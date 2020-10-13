@@ -58,7 +58,7 @@ body {
 }
 
 .open {
-  width: (100%);
+  width: 100%;
   display: block;
   justify-content: center;
   align-items: center;
@@ -96,7 +96,7 @@ body {
 }
 
 #point {
-  font-weight: 1300;
+  font-weight: normal;
 }
 
 #won {
