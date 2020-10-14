@@ -224,4 +224,19 @@ of [NetherRealm Studios](https://www.netherrealm.com/games/) for providing me th
 
 <h2 align="center"><img src="/documentation/mk-steam.png"></h2>
 
+## Acknowledgements <a name="acknowledgements"></a>
+
+- My mentor, Aaron Sinnott. For the continuous help and tips provided to me to ensure I was doing my best. For also providing me with a basic README file to ensure I knew 
+  how to structure my own README.
+
+- The Slack community for providing help on JS variable and const formatting and usage.
+
+- [Stack Overflow](https://stackoverflow.com/questions/37361805/memory-game-in-javascript-css) and
+[W3 Schools](https://www.w3schools.com/js/js_best_practices.asp) for helping with JS Best practise and further
+assistance with JS game development.
+
+- [Mortal Kombat](https://www.mortalkombat.com/) for providing and developing the game series that had a massive impact
+on my childhood and also providing the content required for producing the game centered around Mortal Kombat.
+
+- [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/) for the course material and their inspiration from challenges and mini projects.
 
