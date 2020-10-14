@@ -173,7 +173,7 @@ Three tools were used to validate and test the integrity of my project:
 - This tool was used to validate the integrity of the HTML page for any warnings or errors. There are no errors but warnings
 show in regards to better header names, but this does not affect the integrity of the game state.
 
-    Results for the validity of both the HTML's can be found [here](documentation/html-game-validator-doc.png) and [here](documentation/html-index-validator.png)
+    Results for the validity of both the HTML's can be found [here](documentation/html-game-validator.png) and [here](documentation/html-index-validator.png)
 
 [JSHint](https://jshint.com/)
 - This tool was used to validate and check the Javascript page for any errors shown throughout the game as well
@@ -184,8 +184,6 @@ as warnings
 ### Further Testing
 
 - This project was tested through multiple browsers; Chrome, Firefox, Opera and Microsoft Edge for validity.
-
-- The project was tested on multiple browsers; Chrome, Firefox, Microsoft Edge and Safari.
 
 - The project was viewed on multiple devices, iPhone XS/X/6, Desktop, Laptop, iPad and Huawei P30 Lite.
 
@@ -228,6 +226,8 @@ This project was deployed to github by following these steps below..
 
 - Inspiration to make a card flip game came from [Scotch IO](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
 who provided the necessary instructions in order for me to understand what was being done and how I should code my game.
+
+- The Flip Effect for the cards was implemented in my game with tips from [W3 Schools](https://www.w3schools.com/howto/howto_css_flip_card.asp)
 
 ### Content
 
