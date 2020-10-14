@@ -158,6 +158,8 @@ to beat your previous record.
     7.  [jQuery](https://jquery.com/)
         - jQuery library was used to make HTML and the JS much easier to use and implement via their API.
             This made implementing event handling, animations and manipulating much easier.
+    8.  [BootStrap](https://www.bootstrapcdn.com/)
+        - BootStrap was used for responsiveness across devices and to ensure minimal margin errors.
 
 
 ## Testing <a name="testing"></a>
