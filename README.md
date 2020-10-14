@@ -181,7 +181,29 @@ as warnings
 
     Results for the JavaScript validator can be found [here](documentation/js-code-validator.png)
 
-This project was tested through multiple browsers; Chrome, Firefox, Opera and Microsoft Edge for validity.
+### Further Testing
+
+- This project was tested through multiple browsers; Chrome, Firefox, Opera and Microsoft Edge for validity.
+
+- The project was tested on multiple browsers; Chrome, Firefox, Microsoft Edge and Safari.
+
+- The project was viewed on multiple devices, iPhone XS/X/6, Desktop, Laptop, iPad and Huawei P30 Lite.
+
+- Continuous testing took place to ensure the game performed as intended and that images were shown with no marginal errors for the cards.
+
+- Family members were asked to test the game for me on their phones and their stories can be found below;
+
+### Further Testing (Family Stories)
+
+- "When opening the game on my phone the instructions were brought up first which allowed me to know how to play
+the game and the button directed me to the main game"
+
+- "My feedback was recorded at the end of the game as it informed me I had won and was now the challenger. This had a 
+replay effect and had played again to beat my previous score. A good touch"
+
+- "The cards animate and flip as intended and the colour theme matched quite well with no overlapping elements."
+
+- "Couldn't fault anything within the game, very good optimisation for my phone".
 
 ## Deployment <a name="deployment"></a>
 
