@@ -197,3 +197,31 @@ This project was deployed to github by following these steps below..
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 7. You have now deployed the project and this process is completed.
 
+
+## Credits <a name="credits"></a>
+
+### Code 
+
+- All code content, including HTML, CSS and JavaScript was directly inputted by the developer of the game.
+
+- Inspiration to make a card flip game came from [Scotch IO](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
+who provided the necessary instructions in order for me to understand what was being done and how I should code my game.
+
+### Content
+
+- Colour properties and additional hex values was added from [Hex Colour Tool](https://www.w3schools.com/colors/colors_picker.asp).
+
+- The shuffle method that I implemented for the cards came from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+who helped implement this method correctly with no errors.
+
+- Content of website was made in pre planning phase by forming Wireframes to project a structure as to how my game should pan out.
+
+### Media
+
+- Images that were used for the front face of the card as well as the backface of the card, were taken directly
+from the 'Mortal Kombat 9: Komplete Edition' game that I own respectively on [Steam](https://store.steampowered.com/) and courtesy
+of [NetherRealm Studios](https://www.netherrealm.com/games/) for providing me the license to play the game and use its content.
+
+<h2 align="center"><img src="/documentation/mk-steam.png"></h2>
+
+
