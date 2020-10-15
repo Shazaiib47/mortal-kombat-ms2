@@ -126,6 +126,8 @@ to beat your previous record.
 
 - Audio Cues such as music, vocal feedback once a card pair has been matched.
 
+- Another Tower that has further 12 different fighters so it tracks progression.
+
 ## Technologies Used <a name="techused"></a>
 
 - ### Languages Used
@@ -196,14 +198,22 @@ as warnings
 ### Further Testing (Family Stories)
 
 - "When opening the game on my phone the instructions were brought up first which allowed me to know how to play
-the game and the button directed me to the main game"
+the game and the button directed me to the main game" - iPhone XS
 
 - "My feedback was recorded at the end of the game as it informed me I had won and was now the challenger. This had a 
-replay effect and had played again to beat my previous score. A good touch"
+replay effect and had played again to beat my previous score. A good touch" - Amazon Fire Kindle
 
-- "The cards animate and flip as intended and the colour theme matched quite well with no overlapping elements."
+- "The cards animate and flip as intended and the colour theme matched quite well with no overlapping elements." - Galaxy S7.
 
-- "Couldn't fault anything within the game, very good optimisation for my phone".
+- "Couldn't fault anything within the game, very good optimisation for my phone". - Huawei P30 Lite.
+
+### Known Bugs
+
+- Viewing the game on iOS Devices causes a display glitch, where the front-face cards do not show when the user
+touches a card to flip. Instead they are greeted with the back face card rotating.
+This can be seen below.
+
+<h2 align="center"><img src="documentation/mk-ios-snap-edited.jpg"></h2>
 
 ## Deployment <a name="deployment"></a>
 
