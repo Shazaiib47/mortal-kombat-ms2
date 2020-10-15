@@ -79,7 +79,7 @@ body {
 
 /* Begin Main Title customisation */
 .mainTag {
-  color: #4d0000;
+  color: #8d0000;
   font-weight: bolder;
   font-size: 3.5rem;
 }
@@ -103,6 +103,7 @@ body {
 
 .btn-handle:hover {
   background: linear-gradient(115.87deg, #ba091b 0%, #000000 100%);
+  color: #ffffff;
 }
 
 /* End Welcome customisation with buttons and hover effects */
@@ -111,7 +112,7 @@ body {
 .headTag,
 .points>p {
   font-weight: bolder;
-  color: #4d0000;
+  color: #8d0000;
 }
 
 #point {
@@ -146,6 +147,7 @@ body {
   border: 2px solid darkslategrey;
   border-radius: 5px;
   background: #000000;
+  color: #ffffff;
 }
 
 #playAgain:hover {
