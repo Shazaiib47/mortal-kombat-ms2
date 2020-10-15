@@ -41,6 +41,7 @@ To view my live project, please click the link below. I hope you have fun playin
 
     - As a User who plays the game, I want to be able to have fun playing the game.
     - As a User who plays the game, I want my effort to be recognised whilst playing.
+    - As a User who plays the game, I want the game mechanics to be straightforward to understand.
 
 - ### Site Owner Goals
 
@@ -184,6 +185,23 @@ show in regards to better header names, but this does not affect the integrity o
 as warnings
 
     Results for the JavaScript validator can be found [here](documentation/js-code-validator.png)
+
+### Testing User Stories from UX Section
+
+ - "As a User who plays the game, I want to be able to have fun playing the game."
+    - The memory game is themed around Mortal Kombat, which is a fighting game and also contains
+    a counter as to how many fights the user has won, which adds to the fun as well as the wide array of fighters.
+
+- "As a User who plays the game, I want my effort to be recognised whilst playing."
+   - Feedback in a game such as this is important. At the end of the game upon finding all pairs, the user is greeted
+    with a message which recognises the user's ability and grants them victory as well as granting the user as a champion
+    which in the Mortal Kombat universe is a huge achievement.
+
+- "As a User who plays the game, I want the game mechanics to be straightforward to understand."
+    - The game mechanics here are relatively straightforward, the user must click on a card to reveal a fighter, followed 
+    by clicking another card to check for a match. If both fighters are matched then the user wins that round.
+    - There is also instructions added before the game starts, allowing the user to understand how to play before pressing 
+    the button that will take them into the game.
 
 ### Further Testing
 
