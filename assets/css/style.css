@@ -50,6 +50,14 @@ body {
 /*End Memory Game Config w/ Cards */
 
 /* Front and Back Face of Cards styling */
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .front-face,
 .back-face {
   height: 100%;
@@ -57,7 +65,8 @@ body {
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .front-face {
