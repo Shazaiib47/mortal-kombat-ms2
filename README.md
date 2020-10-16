@@ -163,6 +163,8 @@ to beat your previous record.
             This made implementing event handling, animations and manipulating much easier.
     8.  [BootStrap](https://www.bootstrapcdn.com/)
         - BootStrap was used for responsiveness across devices and to ensure minimal margin errors.
+    9. [Autoprefixer CSS Online](https://autoprefixer.github.io/)
+        - This was used to prefix my CSS that parses it and applies vendor fixes. Used this for the front-face image not showing on iOS Devices.
 
 
 ## Testing <a name="testing"></a>
@@ -232,6 +234,19 @@ touches a card to flip. Instead they are greeted with the back face card rotatin
 This can be seen below.
 
 <h2 align="center"><img src="documentation/mk-ios-snap-edited.jpg"></h2>
+
+- As you can see above this is what the bug looks like. The front-face image does not show, however after getting into
+contact with Tutor Support at CI, they had informed me this bug is common on iOS Devices and is related to the Operating System, and if i was to alter this,
+it would affect the whole visibility on Android and Desktop devices.
+
+<h2 align="left"><img src="documentation/tutor-feedback.png"></h2>
+<h2 align="right"><img src="documentation/feedback-ci.png"></h2>
+
+- Given the feedback above, as well as some help from my mentor; i decided not to fix this bug, as it could conflict with the project as a whole
+and would possibly react differently on other devices and computers etc.
+
+- A change I did make which made a subtle difference was using [Autoprefixer CSS](https://autoprefixer.github.io/) and adding in a -webkit-backface-visibility
+property. This is reflected in my CSS.
 
 ## Deployment <a name="deployment"></a>
 
