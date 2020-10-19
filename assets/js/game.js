@@ -66,7 +66,7 @@ function unflipCards() {
     lockBoard = true;
 
     /* setTimeout function that is implemented so there is an interval between first card being clicked and the second. 
-    unflipcards will turn both cards back with the 100ms timeout which then removes the flip class */
+    unflipcards will turn both cards back with the 1000ms timeout which then removes the flip class */
     setTimeout(() => {
         firstCard.classList.remove("flip");
         secondCard.classList.remove("flip");
