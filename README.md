@@ -125,9 +125,7 @@ to beat your previous record.
 
 - Difficulty section which scales from Easy (12 cards), Medium (16 cards), and Hard (24 cards).
 
-- Audio Cues such as music, vocal feedback once a card pair has been matched.
-
-- Another Tower that has further 12 different fighters so it tracks progression.
+- Audio Cues such as music, vocal feedback once a card pair has been matched, and also the iconic Mortal Kombat theme song.
 
 ## Technologies Used <a name="techused"></a>
 
@@ -194,10 +192,14 @@ as warnings
     - The memory game is themed around Mortal Kombat, which is a fighting game and also contains
     a counter as to how many fights the user has won, which adds to the fun as well as the wide array of fighters.
 
+    <h2 align="center"><img src="documentation/mk-fight-counter.png"></h2>
+
 - "As a User who plays the game, I want my effort to be recognised whilst playing."
    - Feedback in a game such as this is important. At the end of the game upon finding all pairs, the user is greeted
     with a message which recognises the user's ability and grants them victory as well as granting the user as a champion
     which in the Mortal Kombat universe is a huge achievement.
+
+    <h2 align="center"><img src="documentation/mk-victory-screen.png"><h2>
 
 - "As a User who plays the game, I want the game mechanics to be straightforward to understand."
     - The game mechanics here are relatively straightforward, the user must click on a card to reveal a fighter, followed 
@@ -205,13 +207,15 @@ as warnings
     - There is also instructions added before the game starts, allowing the user to understand how to play before pressing 
     the button that will take them into the game.
 
+    <h2 align="center"><img src="documentation/mk-instructions.png"></h2>
+
 ### Further Testing
 
 - This project was tested through multiple browsers; Chrome, Firefox, Opera and Microsoft Edge for validity.
 
 - The project was viewed on multiple devices, iPhone XS/X/6, Desktop, Laptop, iPad and Huawei P30 Lite.
 
-- Continuous testing took place to ensure the game performed as intended and that images were shown with no marginal errors for the cards.
+- Continuous testing of the flip effect to ensure this operated as it was supposed to.
 
 - Family members were asked to test the game for me on their phones and their stories can be found below;
 
@@ -243,7 +247,7 @@ it would affect the whole visibility on Android and Desktop devices.
 <h2 align="right"><img src="documentation/feedback-ci.png"></h2>
 
 - Given the feedback above, as well as some help from my mentor; i decided not to fix this bug, as it could conflict with the project as a whole
-and would possibly react differently on other devices and computers etc.
+and would possibly react differently on other devices and computers etc. My mentor had also stated to leave this untouched and I plan on finding another solution/workaround.
 
 - A change I did make which made a subtle difference was using [Autoprefixer CSS](https://autoprefixer.github.io/) and adding in a -webkit-backface-visibility
 property. This is reflected in my CSS.
