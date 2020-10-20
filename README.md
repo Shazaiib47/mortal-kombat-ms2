@@ -216,6 +216,12 @@ as warnings
 - The project was viewed on multiple devices, iPhone XS/X/6, Desktop, Laptop, iPad and Huawei P30 Lite.
 
 - Continuous testing of the flip effect to ensure this operated as it was supposed to.
+    - I had trouble scripting the flip element for the cards as when clicked to flip, no front-facing image
+    would show. After finding relative solutions, the issue was due to grammatical errors which I had discovered later.
+    Both the front-face and back-face were stacked onto each other and i had to apply the backface-visibility to visible 
+    in order for  the back face to show once flipped.
+
+    - The Flip scripting was an element that had taken me quite some time to get my head around.
 
 - Family members were asked to test the game for me on their phones and their stories can be found below;
 
