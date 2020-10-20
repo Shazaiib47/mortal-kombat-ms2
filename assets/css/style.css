@@ -174,6 +174,27 @@ body {
 
 /* End image styling */
 
+/* Begin Styling of button located below card deck on game.html */
+a {
+    display: block;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Spectral SC', sans-serif;
+    font-size: 30px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: purple;
+}
+
+/* End Button styling located on game.html */
+
 /*Media Queries for Multiple Screen Sizes*/
 
 @media (min-width: 992px) {
