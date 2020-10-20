@@ -119,6 +119,9 @@ tweaks such as the overlay instructions added, but all the designs were final.
 - Fight Counter replaced for Flips for full immersion of the game and to keep track for a competitive edge
 to beat your previous record.
 
+- A Back button now implemented for users to return to home page to view instructions. This was added for ease of
+accessibility. *Added on 20/10/2020*
+
 ### Future Features to Implement.
 
 - A timer to track progress and for the user to have a competitive edge if they wish to beat their previous record.
