@@ -108,6 +108,8 @@ body {
 .btn-handle {
   border: 2px solid #4d0000;
   background-color: #ffffff;
+  margin-left: 30%;
+  margin-top: 20px;
 }
 
 .btn-handle:hover {
