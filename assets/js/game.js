@@ -45,6 +45,9 @@ function checkForMatch() {
     unflipCards();
 }
 
+/* When a match occurs, the disabledcards() is triggered and both event listeners are detached so no more flipping can occur.
+    This then adds 3 points upon a card match which adds to the fight counter. When all cards are matched, 2 further points are added and the finalScore property
+    is triggered and then tallys up the total points */
 function disableCards() {
     firstCard.removeEventListener("click", flipCard);
     secondCard.removeEventListener("click", secondCard);
@@ -55,6 +58,7 @@ function disableCards() {
     finalScore.innerHTML = finalPoint;
     score.innerHTML = points;
 
+    // Code to illustrate that once all 12 cards are matched, the "won" in the html is declared and a visible class is applied to show the victory screen. This then resets the board.
     if (win === 12) {
         won.style.visibility = "visible";
     }
