@@ -54,7 +54,7 @@ function disableCards() {
 
     points += 3;
     finalPoint = points;
-    win +=2;
+    win += 2;
     finalScore.innerHTML = finalPoint;
     score.innerHTML = points;
 
@@ -74,6 +74,7 @@ function unflipCards() {
     setTimeout(() => {
         firstCard.classList.remove("flip");
         secondCard.classList.remove("flip");
+       
         resetBoard();
     }, 1000);
 
