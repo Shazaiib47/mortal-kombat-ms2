@@ -280,7 +280,7 @@ This project was deployed to github by following these steps below..
 
 ### Code 
 
-- All code content, including HTML, CSS and JavaScript was directly inputted by the developer of the game.
+- All code content, including HTML, CSS and JavaScript was directly inputted by myself as the developer of the game.
 
 - Inspiration to make a card flip game came from [Scotch IO](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
 who provided the necessary instructions in order for me to understand what was being done and how I should code my game.
