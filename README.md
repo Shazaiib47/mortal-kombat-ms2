@@ -14,6 +14,7 @@
 8. [Deployment](#deployment)
 9. [Credits](#credits)
 10. [Acknowledgements](#acknowledgements)
+11. [Disclaimer](#disclaimer)
 
 ## Project Introduction <a name="introduction"></a>
 The Project I have created is a Memory Card Flip game with an added theme of Mortal Kombat.
@@ -330,4 +331,8 @@ on my childhood and also providing the content required for producing the game c
 - [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/) for the course material and their inspiration from challenges and mini projects.
 
 - The Tutor Team at CI for assisting me with the iOS bug and providing me with solutions to make it easy for me and to ensure I was doing my best to resolve this issue.
+
+## Disclaimer <a name="disclaimer"></a>
+
+*This game and the content involved was developed for educational purposes.*
 
