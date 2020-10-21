@@ -287,6 +287,9 @@ who provided the necessary instructions in order for me to understand what was b
 
 - The Flip Effect for the cards was implemented in my game with tips from [W3 Schools](https://www.w3schools.com/howto/howto_css_flip_card.asp)
 
+- The Data Attribute usage came from [W3 Schools](https://www.w3schools.com/tags/att_data-.asp) who helped me implement the Attribute
+to store custom data's on HTML elements.
+
 ### Content
 
 - Colour properties and additional hex values was added from [Hex Colour Tool](https://www.w3schools.com/colors/colors_picker.asp).
