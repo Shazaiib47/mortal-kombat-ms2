@@ -304,6 +304,12 @@ of [NetherRealm Studios](https://www.netherrealm.com/games/) for providing me th
 
 <h2 align="center"><img src="/documentation/mk-steam.png"></h2>
 
+<h2 align="center"><img src="documentation/mk-game-char-select.png"></h2>
+
+- As shown above, there are a wide array of characters available but incorporating them all would have made it difficult for me
+in terms of their positioning and layout. A future feature I intend to implement is the difficulty as shown above which incorporates
+most additional characters and if provided I can arrange the formatting, then all can be included.
+
 ## Acknowledgements <a name="acknowledgements"></a>
 
 - My mentor, Aaron Sinnott. For the continuous help and tips provided to me to ensure I was doing my best. For also providing me with a basic README file to ensure I knew 
